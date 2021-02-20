@@ -28,7 +28,7 @@ const Post: React.FC<Props> = ({ post }) => {
       <div className={styles['post__footer']}>
         <Meta date={date} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
-        <Author />
+        {/* <Author /> */}
       </div>
 
       <div className={styles['post__comments']}>
